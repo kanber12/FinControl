@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/menu_trans_list_show_methods"
+        android:title="@string/show_payment_methods"
+        android:icon="@drawable/ic_payment_methods"
+        app:showAsAction="ifRoom" />
+
+    <item android:id="@+id/menu_trans_list_show_summary"
+        android:title="@string/show_summary"
+        android:icon="@drawable/ic_summary"
+        app:showAsAction="ifRoom" />
+
+</menu>

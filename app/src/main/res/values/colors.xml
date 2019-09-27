@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#15AF70</color>
+    <color name="colorPrimaryDark">#028E59</color>
+    <color name="colorAccent">#FFCC26</color>
+    <color name="colorAccentRipple">#FFEDB3</color>
+    <color name="colorChargeOff">#F50707</color>
+    <color name="colorRefill">#32CE21</color>
+    <color name="colorTransfer">#FFC500</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGray">#AAAAAA</color>
+    <color name="colorDarkGray">#555555</color>
+    <color name="colorLightGray">#F4F4F4</color>
+    <color name="colorMethodBackground">#E1E1E1</color>
+    <color name="colorBlack">#111111</color>
+    <color name="colorBlue">#295FFF</color>
+</resources>

@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".transactions.BrowseTransactionFragment">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none"
+        app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/browse_trans_place_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="5dp"
+                android:drawableStart="@drawable/ic_place"
+                android:drawablePadding="6dp"
+                android:ellipsize="end"
+                android:maxLines="3"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp"
+                app:layout_constraintHorizontal_chainStyle="spread_inside"
+                app:layout_constraintHorizontal_weight="1"
+                app:layout_constraintLeft_toRightOf="@id/browse_trans_guide_left"
+                app:layout_constraintRight_toLeftOf="@id/browse_trans_sum_text_view"
+                app:layout_constraintTop_toBottomOf="@id/browse_trans_guide_top" />
+
+            <TextView
+                android:id="@+id/browse_trans_sum_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxWidth="155dp"
+                android:maxLines="1"
+                android:textSize="31sp"
+                app:layout_constraintLeft_toRightOf="@id/browse_trans_place_text_view"
+                app:layout_constraintRight_toLeftOf="@id/browse_trans_currency_text_view"
+                app:layout_constraintTop_toBottomOf="@id/browse_trans_guide_top" />
+
+            <TextView
+                android:id="@+id/browse_trans_currency_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="10dp"
+                android:ellipsize="end"
+                android:maxWidth="60dp"
+                android:maxLines="1"
+                android:paddingTop="10dp"
+                android:textSize="15sp"
+                app:layout_constraintLeft_toRightOf="@id/browse_trans_sum_text_view"
+                app:layout_constraintRight_toRightOf="@id/browse_trans_guide_right"
+                app:layout_constraintTop_toBottomOf="@id/browse_trans_guide_top" />
+
+            <TextView
+                android:id="@+id/browse_trans_method_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_payment_methods_black"
+                android:drawablePadding="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp"
+                app:layout_constraintLeft_toRightOf="@id/browse_trans_guide_left"
+                app:layout_constraintTop_toBottomOf="@id/browse_trans_place_text_view" />
+
+            <TextView
+                android:id="@+id/browse_trans_category_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:drawableStart="@drawable/ic_category_outline"
+                android:drawablePadding="6dp"
+                android:ellipsize="end"
+                android:maxLines="2"
+                android:textColor="@color/colorBlack"
+                android:textSize="17sp"
+                app:layout_constraintLeft_toRightOf="@id/browse_trans_guide_left"
+                app:layout_constraintTop_toBottomOf="@id/browse_trans_method_text_view" />
+
+            <TextView
+                android:id="@+id/browse_trans_description_text_view"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/transaction_note_background"
+                android:padding="10dp"
+                android:textSize="15sp"
+                app:layout_constraintBottom_toTopOf="@id/browse_trans_guide_bottom"
+                app:layout_constraintLeft_toRightOf="@id/browse_trans_guide_left"
+                app:layout_constraintRight_toLeftOf="@id/browse_trans_guide_right"
+                app:layout_constraintTop_toBottomOf="@id/browse_trans_category_text_view" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/browse_trans_guide_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.05" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/browse_trans_guide_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.03" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/browse_trans_guide_bottom"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                app:layout_constraintGuide_percent="0.9" />
+
+            <androidx.constraintlayout.widget.Guideline
+                android:id="@+id/browse_trans_guide_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                app:layout_constraintGuide_percent="0.97" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.core.widget.NestedScrollView>
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_scrollable" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

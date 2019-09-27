@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/menu_method_set_default"
+        android:icon="@drawable/ic_default"
+        android:title="@string/set_as_default" />
+
+    <item
+        android:id="@+id/menu_method_edit"
+        android:icon="@drawable/ic_edit"
+        android:title="@string/edit" />
+
+    <item
+        android:id="@+id/menu_method_delete"
+        android:icon="@drawable/ic_delete"
+        android:title="@string/delete" />
+
+</menu>

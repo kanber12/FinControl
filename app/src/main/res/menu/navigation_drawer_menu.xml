@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="@string/transactions">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_menu_archived_trans"
+                android:icon="@drawable/ic_archive"
+                android:title="@string/archived_transactions" />
+
+            <item
+                android:id="@+id/nav_menu_categories"
+                android:icon="@drawable/ic_category_outline"
+                android:title="@string/categories" />
+
+            <item
+                android:id="@+id/nav_menu_places"
+                android:icon="@drawable/ic_place"
+                android:title="@string/places" />
+
+            <item
+                android:id="@+id/nav_menu_currencies"
+                android:icon="@drawable/ic_currency_euro"
+                android:title="@string/currencies" />
+
+        </menu>
+
+    </item>
+
+    <item android:title="Summary">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_menu_item_4"
+                android:icon="@drawable/ic_summary"
+                android:title="Summary by payment method" />
+
+            <item
+                android:id="@+id/nav_menu_item_5"
+                android:icon="@drawable/ic_summary"
+                android:title="Summary by places" />
+
+            <item
+                android:id="@+id/nav_menu_item_6"
+                android:icon="@drawable/ic_summary"
+                android:title="Detailed summary" />
+
+            <item
+                android:id="@+id/nav_menu_item_7"
+                android:icon="@drawable/ic_summary"
+                android:title="Week overview" />
+
+        </menu>
+
+    </item>
+
+
+    <item android:title="Other">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_menu_item_8"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_menu_item_10"
+                android:icon="@drawable/ic_telegram"
+                android:title="Telegram integration" />
+
+            <item
+                android:id="@+id/nav_menu_item_13"
+                android:icon="@drawable/ic_log_out"
+                android:title="Log out" />
+
+        </menu>
+
+    </item>
+
+
+</menu>
