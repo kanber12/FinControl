@@ -1,4 +1,4 @@
-package by.kanber.fincontrol.transactions.places
+package by.kanber.fincontrol.transaction.place
 
 
 import android.os.Bundle

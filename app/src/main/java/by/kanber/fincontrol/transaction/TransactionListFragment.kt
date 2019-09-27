@@ -1,4 +1,4 @@
-package by.kanber.fincontrol.transactions
+package by.kanber.fincontrol.transaction
 
 
 import android.os.Bundle
@@ -16,14 +16,14 @@ import by.kanber.fincontrol.api.model.TransactionApiModel
 import by.kanber.fincontrol.base.BaseView
 import by.kanber.fincontrol.dialog.ContextMenuDialogFragment
 import by.kanber.fincontrol.dialog.NavigationDrawerDialogFragment
-import by.kanber.fincontrol.methods.PaymentMethodListFragment
+import by.kanber.fincontrol.method.PaymentMethodListFragment
 import by.kanber.fincontrol.model.Category
 import by.kanber.fincontrol.model.PaymentMethod
 import by.kanber.fincontrol.model.Transaction
 import by.kanber.fincontrol.summary.SimpleSummaryFragment
-import by.kanber.fincontrol.transactions.categories.CategoryListFragment
-import by.kanber.fincontrol.transactions.currencies.CurrencyListFragment
-import by.kanber.fincontrol.transactions.places.PlaceListFragment
+import by.kanber.fincontrol.transaction.category.CategoryListFragment
+import by.kanber.fincontrol.transaction.currency.CurrencyListFragment
+import by.kanber.fincontrol.transaction.place.PlaceListFragment
 import by.kanber.fincontrol.util.CustomItemDivider
 import kotlinx.android.synthetic.main.fragment_transaction_list.view.*
 import retrofit2.HttpException

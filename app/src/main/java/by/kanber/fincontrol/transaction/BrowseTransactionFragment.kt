@@ -1,4 +1,4 @@
-package by.kanber.fincontrol.transactions
+package by.kanber.fincontrol.transaction
 
 import android.content.Context
 import android.graphics.drawable.Drawable

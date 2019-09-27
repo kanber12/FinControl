@@ -1,4 +1,4 @@
-package by.kanber.fincontrol.transactions.categories
+package by.kanber.fincontrol.transaction.category
 
 
 import android.content.Context
@@ -16,7 +16,7 @@ import by.kanber.fincontrol.dialog.ConfirmationDialogFragment
 import by.kanber.fincontrol.dialog.ContextMenuDialogFragment
 import by.kanber.fincontrol.dialog.InputTextDialogFragment
 import by.kanber.fincontrol.model.Category
-import by.kanber.fincontrol.transactions.TransactionListFragment
+import by.kanber.fincontrol.transaction.TransactionListFragment
 import kotlinx.android.synthetic.main.simple_list_layout.view.*
 import kotlinx.android.synthetic.main.toolbar_scrollable.view.*
 import java.util.*

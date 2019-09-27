@@ -1,4 +1,4 @@
-package by.kanber.fincontrol.transactions.currencies
+package by.kanber.fincontrol.transaction.currency
 
 
 import android.os.Bundle

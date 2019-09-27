@@ -1,4 +1,4 @@
-package by.kanber.fincontrol.methods
+package by.kanber.fincontrol.method
 
 
 import android.content.Context
@@ -19,7 +19,7 @@ import by.kanber.fincontrol.dialog.ConfirmationDialogFragment
 import by.kanber.fincontrol.dialog.ContextMenuDialogFragment
 import by.kanber.fincontrol.model.PaymentMethod
 import by.kanber.fincontrol.model.PaymentMethodHeader
-import by.kanber.fincontrol.transactions.TransactionListFragment
+import by.kanber.fincontrol.transaction.TransactionListFragment
 import kotlinx.android.synthetic.main.fragment_payment_method_list.view.*
 import kotlinx.android.synthetic.main.toolbar_scrollable.view.*
 import retrofit2.HttpException

@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import by.kanber.fincontrol.R
 import by.kanber.fincontrol.database.DBHelper
-import by.kanber.fincontrol.transactions.TransactionListFragment
+import by.kanber.fincontrol.transaction.TransactionListFragment
 
 class MainActivity : AppCompatActivity() {
     lateinit var helper: DBHelper

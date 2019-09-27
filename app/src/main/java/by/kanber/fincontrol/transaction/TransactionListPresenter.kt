@@ -1,4 +1,4 @@
-package by.kanber.fincontrol.transactions
+package by.kanber.fincontrol.transaction
 
 import by.kanber.fincontrol.base.BasePresenter
 import by.kanber.fincontrol.base.BaseView

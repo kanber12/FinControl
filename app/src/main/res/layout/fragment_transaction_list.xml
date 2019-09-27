@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".transactions.TransactionListFragment">
+    tools:context=".transaction.TransactionListFragment">
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/trans_list_recycler_view"
